@@ -17,3 +17,13 @@ h3 { margin: 0; text-align: center; font-family: "Roboto-Black", sans-serif; fon
 p { margin: 0; font-family: "Roboto-Light", sans-serif; font-size: 1em; letter-spacing: 1px; color: #8f8f8f; line-height: 1.7; }
 
 .wrapper { margin: 0 auto; padding: 0 10px; }
+
+.header { padding: 30px 0; margin: 0; }
+
+.nav { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; padding: 0 40px; -webkit-align-content: center; -ms-flex-line-pack: center; align-content: center; border: 1px solid black; }
+
+.nav__logo { padding-top: 10px; border: 1px solid blue; }
+
+.nav .toggle__menu { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; -webkit-flex-wrap: nowra; -ms-flex-wrap: nowra; flex-wrap: nowra; }
+
+.nav .toggle__menu li { padding: 0 20px; }

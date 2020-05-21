@@ -1,0 +1,27 @@
+.header {
+  padding: 30px 0;
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+  align-content: center;
+  border: 1px solid black;
+}
+
+.nav__logo {
+  padding-top: 10px;
+  border: 1px solid blue;
+}
+
+.nav .toggle__menu {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowra;
+}
+
+.nav .toggle__menu li {
+  padding: 0 20px;
+}
